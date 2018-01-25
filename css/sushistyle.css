@@ -1,0 +1,42 @@
+body {
+    height: 100%;
+}
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50%;
+    margin-left: -50%;
+    z-index: 1;
+}
+div {
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+    max-width: 720px;
+    margin-top: 150px;
+    text-align: center;
+}
+h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+    color: rgba(103,8,67,0.9);
+    opacity: 0.75;
+}
+p {
+    font-size: 30px;
+    font-family: 'Cookie', cursive;
+    color: aliceblue;
+    background-color: slateblue;
+    opacity: 0.6;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 40px;
+    border: solid 3px rgb(255, 60, 100);
+    font-size: 1.3em;
+    color: rgb(255, 60, 100);
+}
