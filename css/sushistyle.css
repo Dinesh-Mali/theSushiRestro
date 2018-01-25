@@ -30,13 +30,14 @@ p {
     color: aliceblue;
     background-color: slateblue;
     opacity: 0.6;
+    border: solid 1px #670843;
 }
 
 a {
     display: inline-block;
     text-decoration: none;
     padding: 10px 40px;
-    border: solid 3px rgb(255, 60, 100);
+    border: solid 3px rgb(103, 8, 67);
     font-size: 1.3em;
     color: rgb(255, 60, 100);
 }
